@@ -1,0 +1,37 @@
+h1 {
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;;
+}
+div {
+    display: inline-block;
+    }
+    .one {
+        background-color: #FFFEC4;
+        border-radius: 90%;
+    }
+.one img {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+}
+.one p {
+    font-size: 14pt;
+    padding: 50px;
+}
+.two {
+    background-color: #A0BFE0;
+    border-radius: 90%;
+}
+.two img {
+    float: right;
+    padding: 50px;
+    border-radius: 50%;
+}
+.two p {
+    font-size: 14pt;
+    padding: 50px;
+}
