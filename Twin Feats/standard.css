@@ -1,0 +1,98 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.25em;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+article {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    position: relative;
+}
+article:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.1;
+    z-index: -1;
+}
+#about:before {
+    background-image: url("../images/c64.jpg");
+}
+.logo {
+    width: 9ch;
+}
+#home {
+    background-image: url('../images/background.jpg');
+}
+.title, .logo {
+    font-family: "Indie Flower";
+    font-size: 3em;
+}
+.tagline {
+    font-style: italic;
+    font-size: 1.5em;
+}
+.photobox {
+    display: flex; 
+}
+.photobox img {
+    width: 22ch;
+}
+.photobox > :last-child {
+    text-align: left;
+}
+.photobox figure {
+    font-size: .6em;
+    margin-left: 0;
+    margin-top: .3rem;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+#services:before {
+    background-image: url("../images/www.jpg");
+}
+#services h2 {
+    font-size: 1.25em;
+}
+#apps::before {
+    background-image: url("../images/apps.jpg");
+}
+#services p, #apps p {
+    text-align: left;
+}

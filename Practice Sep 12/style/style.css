@@ -1,0 +1,14 @@
+div {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #CBFFA9;
+        padding: 50px;
+        } 
+
+p {
+        color: blue;
+        text-align: center;
+}
+h1 {
+        text-align: center;
+}
