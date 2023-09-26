@@ -1,0 +1,26 @@
+.toys {
+    display: grid;
+    grid-template-columns: repeat (4, 150px);
+    gap: 1rem;
+}
+.folk {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #004225;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+* {
+    box-sizing: border-box;
+}
+.toys {
+    font-family: 'Lobster Two', cursive;
+    font-size: 14pt;
+}
+.folk > img {
+    order: -1;
+    align-self: center;
+}
+h1 {
+    color: #B3005E;
+}
