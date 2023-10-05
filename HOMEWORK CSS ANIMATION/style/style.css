@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+button {
+    width: 300px;
+    height: 200px;
+    font-size: 16pt;
+}
+.transformation {
+    background-color: #B931FC80;
+}
+.animation {
+    background-color: #6499E980;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.transition {
+    background-color: #D2DE3280;
+    transition-duration: 3s;
+}
+button.transformation:hover {
+    transform: translate(50px, 80px);
+}
+@keyframes move {
+    from {
+background-color: #6499E980;
+scale: 1;
+    }
+    50% {
+        background-color: #016A70;
+        scale: 1.5;
+    }
+    to {
+background-color: #0E21A080;
+scale: 1;
+    }
+}
+button.transition:hover {
+    background-color: #CD5C08;
+}
