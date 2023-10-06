@@ -1,0 +1,26 @@
+div {
+    display: flex;
+    background-color: #B931FC80;
+    flex-direction: row;
+    justify-content: center;
+    }
+menu a {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #FFE5E5;
+}
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+@media screen and (max-width: 600px) {
+    div {display: flex;
+        flex-direction: column; flex-wrap: wrap;}
+        p { margin: 5px;}
+}
