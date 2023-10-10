@@ -1,8 +1,9 @@
-div {
+header {
     display: flex;
     background-color: #B931FC80;
     flex-direction: row;
     justify-content: center;
+    box-sizing: border-box;
     }
 menu a {
     justify-content: center;
